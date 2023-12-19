@@ -1,12 +1,8 @@
-import Categories from "./categories/categories";
-import Project from "./dashboards";
-
 function Render() {
 	return (
-		<div className="flex">
-			<Categories />
-			<Project />
-		</div>
+		<>
+			<h1 className="text-[red] text-[100px]">Hello</h1>
+		</>
 	);
 }
 
